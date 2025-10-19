@@ -118,5 +118,5 @@ if __name__ == "__main__":
     all_game_reviews = get_steam_reviews(APP_ID, limit=REVIEW_LIMIT)
 
     if all_game_reviews:
-        output_filename = f"steam_reviews_{APP_ID}.csv"
+        output_filename = f"steam_reviews_2_{APP_ID}.csv"
         save_reviews_to_csv(all_game_reviews, filename=output_filename)
